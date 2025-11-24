@@ -72,7 +72,74 @@ gin: 0 auto; /* Center the quote section */
 .quote-container p {
     font-size: 16px;
     color: #777; /* Lighter grey for subtitle */
+}* VIDEOS SECTION */
+.videos h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #2F3642; /* Dark heading color */
 }
+.video-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    justify-content: center;
+}
+.video-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px; /* Adjust width based on Figma */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.video-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.video-item p {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.video-item .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.video-item .author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.video-item .author h4 {
+    font-size: 16px;
+}
+.video-item .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.video-item .rating img {
+    width: 20px;
+    height: 20px;
+}
+.video-item .rating p {
+    font-size: 14px;
+    color: #777;
+}
+
+
 
 
 
