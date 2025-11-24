@@ -138,6 +138,60 @@ gin: 0 auto; /* Center the quote section */
     font-size: 14px;
     color: #777;
 }
+/* MEMBERSHIP SECTION */
+.membership h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #2F3642; /* Dark heading color */
+}
+.membership-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    justify-content: center;
+}
+.membership-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px; /* Adjust based on Figma */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.membership-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.membership-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.membership-item p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.membership button {
+    display: block;
+    margin: 40px auto 0;
+    padding: 12px 30px;
+    background-color: #AA30B5; /* Matching banner button color */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.membership button:hover {
+    background-color: #991FA3; /* Slightly darker purple on hover */
+}
+
 
 
 
