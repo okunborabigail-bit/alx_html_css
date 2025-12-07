@@ -72,3 +72,40 @@ body {
     gap: 10px;
   }
 }
+/* What we do section */
+.what-we-do {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.what-we-do h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.service {
+  flex: 1 1 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.service i {
+  font-size: 3rem;
+  color: var(--main-color);
+  margin-bottom: 15px;
+  display: block;
+}
+.service h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.service p {
+  font-size: 0.95rem;
+  color: #555;
+}
